@@ -29,7 +29,7 @@
     "llm"
   ],
   "author": "Lokesh Katta",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "dependencies": {
     "@ai-sdk/openai-compatible": "^0.2.16",
     "@ai-sdk/provider": "^1.1.3",
