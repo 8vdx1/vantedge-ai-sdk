@@ -147,7 +147,7 @@ The package supports various model types:
 
 ## License
 
-MIT
+Apache 2.0
 
 ## Contributing
 
