@@ -1,11 +1,11 @@
-# @vantedge/ai-sdk
+# vantedge-ai-sdk
 
 VantEdge AI SDK provider for AI SDK - A custom provider that implements OpenAI-compatible endpoints for AI SDK.
 
 ## Installation
 
 ```bash
-npm install @vantedge/ai-sdk
+npm install vantedge-ai-sdk
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install @vantedge/ai-sdk
 ### Basic Usage
 
 ```typescript
-import { vantedgeai } from '@vantedge/ai-sdk';
+import { vantedgeai } from 'vantedge-ai-sdk';
 import { generateText } from 'ai';
 
 const { text } = await generateText({
@@ -25,7 +25,7 @@ const { text } = await generateText({
 ### Chat Model
 
 ```typescript
-import { vantedgeai } from '@vantedge/ai-sdk';
+import { vantedgeai } from 'vantedge-ai-sdk';
 import { streamText } from 'ai';
 
 const { textStream } = await streamText({
@@ -37,7 +37,7 @@ const { textStream } = await streamText({
 ### Completion Model
 
 ```typescript
-import { vantedgeai } from '@vantedge/ai-sdk';
+import { vantedgeai } from 'vantedge-ai-sdk';
 import { generateText } from 'ai';
 
 const { text } = await generateText({
@@ -49,7 +49,7 @@ const { text } = await generateText({
 ### Embedding Model
 
 ```typescript
-import { vantedgeai } from '@vantedge/ai-sdk';
+import { vantedgeai } from 'vantedge-ai-sdk';
 import { embed } from 'ai';
 
 const { embedding } = await embed({
@@ -61,7 +61,7 @@ const { embedding } = await embed({
 ### Image Model
 
 ```typescript
-import { vantedgeai } from '@vantedge/ai-sdk';
+import { vantedgeai } from 'vantedge-ai-sdk';
 import { generateImage } from 'ai';
 
 const { image } = await generateImage({
@@ -75,7 +75,7 @@ const { image } = await generateImage({
 ### Custom Provider Instance
 
 ```typescript
-import { createVantEdgeAI } from '@vantedge/ai-sdk';
+import { createVantEdgeAI } from 'vantedge-ai-sdk';
 
 const customProvider = createVantEdgeAI({
   apiKey: 'your-api-key',
